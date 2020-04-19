@@ -8,7 +8,7 @@ LIBPATH = ""
 LIBPATH_env = "LD_LIBRARY_PATH"
 
 # Relative path to `libze_loader`
-const libze_loader_splitpath = ["lib", "libze_loader.so.0.91.10"]
+const libze_loader_splitpath = ["lib", "libze_loader.so"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libze_loader_path = ""
@@ -22,7 +22,7 @@ const libze_loader = "libze_loader.so.0.91"
 
 
 # Relative path to `libze_validation_layer`
-const libze_validation_layer_splitpath = ["lib", "libze_validation_layer.so.0.91.10"]
+const libze_validation_layer_splitpath = ["lib", "libze_validation_layer.so"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libze_validation_layer_path = ""
